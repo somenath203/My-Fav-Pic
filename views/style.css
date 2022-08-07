@@ -151,3 +151,33 @@ header h2::after {
 .more:hover {
   background-image: linear-gradient(to right, #a444be, #9643c6, #8544ce, #6f46d5, #5148dd);
 }
+
+@media (max-width: 648px) {
+  .search-form input {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .search-form input {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .search-form input {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 406px) {
+  .search-form input {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 327px) {
+  .search-form input {
+    width: 15rem;
+  }
+}
